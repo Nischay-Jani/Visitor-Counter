@@ -101,9 +101,30 @@ The system uses two Ultrasoic sensors placed at the entrance to ensure accurate 
   </tr>
 </table>
 
+<br>
+<img src="Components.png">
+<br>
 
 ## Libraries needed to be installed
 1. ESP8266 library for the ESP8266 microcontroller board.
 2. OLED Display Library: Adafruit SSD1306 and Adafruit GFX Library.
 3. ESP8266WiFi Library
 4. BlynkSimpleEsp8266 Library for connecting with the Blynk IoT platform.
+
+## Module Development
+### Contections
+1. Connect the I2C pins (SDA & SCL) of 0.96" OLED Display  with the NodeMCU ESP8266 D2 and D1 respectively.
+2. Interface the trigger pin and echo pin of ultrasonic sensor 1 to the D6 and D5 respectively of ESP8266.
+3. Interface the trigger pin and echo pin of ultrasonic sensor 2 to the D8 and D7 respectively of ESP8266.
+4. Connect a 5V Relay module to the D3 pin of ESP8266.
+
+### Setting up Blynk Application
+<p align="justify">We need to set up the Blynk app to receive the visitor counter data from the ESP8266 NodeMCU board. To set up Blynk Application, Download and install the application on smartphone. Open the app and create a new account using e-mail address.</p>
+
+<ul>
+  <li>Click on create new project.</li>
+  <li>Provide the name of your project</li>
+  <li>Choose NodeMCU ESP8266 Dev board</li>
+  <li>Select connection type as WiFi, then click on create button</li>
+  <li>They sent the Blynk authentication tolen to the email address (needed later in programming).</li>
+</ul>
