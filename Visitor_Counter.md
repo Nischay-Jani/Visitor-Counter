@@ -1,14 +1,19 @@
 # Visitor Counter Project
 
 ## Table of Contents
-1. Overview
-2. Components required
-3. Libraries needed to be installed
-4. Module Develpment
-5. Setting up Blynk application
-6. Tests and Results
-7. Video Demonstration
-8. Conclusion
+<ol>
+  <li>Overview</li>
+  <li>Components required</li>
+  <li>Libraries needed to be installed</li>
+  <li>Module Development</li>
+  <ul>
+    <li>Connections</li>
+    <li>Setting up Blynk Application</li>
+  </ul>
+  <li>Tests and Results</li>
+  <li>Video Demonstration</li>
+  <li>Conclusion</li>
+</ol>
 
 ## Overview
 
@@ -128,4 +133,18 @@ The system uses two Ultrasoic sensors placed at the entrance to ensure accurate 
 <img src="Blynk_2.jpeg" width="25%" height="25%">
 4.Search the “Value Display” widget from widget box and add 3 of them to your main screen.
 <img src="Blynk_3.jpeg" width="25%" height="25%">
-5. 
+<img src="Blynk_7.jpeg" width="25%" height="25%">
+5. Now set the input pins to virtual pins V1, V2 and V3, Enter the range and choose the refresh rate as 1 sec.
+6. Choose NodeMCU ESP8266 Dev board.
+7. Select connection type as WiFi, then click on create button.
+<img src="Blynk_4" width="25%" height="25%">
+8. Enter the device name.
+<img src="Blynk_5" width="25%" height="25%">
+9. Finally, the Blynk App setup for IoT based person counter using NodeMCU ESP8266 is completed.
+<img src="Blynk_6" width="25%" height="25%">
+
+## Tests and Results
+<div align="justify">
+After uploading the Visitor Counter code to the NodeMCU ESP8266 board, the device is ready to use. The system uses two Ultrasoic sensors placed at the entrance to ensure accurate bidirectional counting. Sensor 1 is positioned at the beginning of the entrance, while Sensor 2 is placed slightly after Sensor 1 along the path of entry/exit. The counting logic is straightforward: an entry is detected when a person crosses Sensor 1 followed by Sensor 2, while an exit is detected when a person crosses Sensor 2 followed by Sensor 1. To ensure accurate counting, the system only registers a count when the sequence of sensor activations matches the predefined patterns for entry or exit, thereby preventing partial crossings (e.g., a person walking halfway through and then stepping back) from being counted.
+</div>
+<img src
