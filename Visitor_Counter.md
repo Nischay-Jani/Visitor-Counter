@@ -153,3 +153,6 @@ After uploading the Visitor Counter code to the NodeMCU ESP8266 board, the devic
 </div>
 
 ## Video Demonstration
+
+https://github.com/user-attachments/assets/beed037f-828d-4722-ab22-0ee97849cb59
+
