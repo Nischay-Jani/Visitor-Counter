@@ -121,10 +121,11 @@ The system uses two Ultrasoic sensors placed at the entrance to ensure accurate 
 ### Setting up Blynk Application
 <p align="justify">We need to set up the Blynk app to receive the visitor counter data from the ESP8266 NodeMCU board. To set up Blynk Application, Download and install the application on smartphone. Open the app and create a new account using e-mail address.</p>
 
-<ul>
-  <li>Click on create new project.</li>
-  <li>Provide the name of your project</li>
-  <li>Choose NodeMCU ESP8266 Dev board</li>
-  <li>Select connection type as WiFi, then click on create button</li>
-  <li>They sent the Blynk authentication tolen to the email address (needed later in programming).</li>
-</ul>
+1. Click on create a new project.
+2. Create a new tempelate and name it.
+<img src="Blynk_1.jpeg" width="25%" height="25%">
+3. Choose Tile Design
+<img src="Blynk_2.jpeg" width="25%" height="25%">
+4.Search the “Value Display” widget from widget box and add 3 of them to your main screen.
+<img src="Blynk_3.jpeg" width="25%" height="25%">
+5. 
