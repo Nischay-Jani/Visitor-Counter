@@ -149,7 +149,7 @@ After uploading the Visitor Counter code to the NodeMCU ESP8266 board, the devic
 </div>
 <br>
 <div align="center">
-  <img src="Blynk_8.jpeg" width="60%" height="50%" align="center">
+  <img src="Blynk_8.png" width="60%" height="50%" align="center">
 </div>
 
 ## Video Demonstration
